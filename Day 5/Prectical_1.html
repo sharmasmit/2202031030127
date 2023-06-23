@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragistration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        body{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #i {
+            height: 10px;
+            width: 10px;
+        }
+
+        table {
+            border: solid black;
+        }
+        button{
+            background-color: skyblue;
+            height: 25px;
+            width: 70px;
+            border-radius: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        button:hover{
+            background-color: rgb(242, 97, 126);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <table>
+            <tr>
+                <th colspan="2">Ragistration Form</th>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-user"></i></td>
+                <td><input type="text" name="first name" id="fn" value="First Name"></td>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-user"></i></td>
+                <td><input type="text" name="middle name" id="mn" value="Middle Name"></td>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-user"></i></td>
+                </td>
+                <td><input type="text" name="last name" id="ln" value="Last Name"></td>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-at"></i></td>
+                <td><input type="email" name="email" id="mail" value="E-mail"></td>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-square-phone fa-shake"></i></td>
+                <td><input type="number"></td>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-restroom"></i></td>
+                <td>
+                    <input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-calendar-days"></i></td>
+                <td><input type="date" name="date" value="dob"></td>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-upload"></i></td>
+                <td><input type="file"></td>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-key"></i></td>
+                <td><input type="password" name="pas"></td>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-location-dot fa-flip"></i></td>
+                <td><textarea name="Address" id="add" cols="30" rows="3"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><i class="fa-solid fa-arrow-up-1-9"></i></td>
+                <td><input type="number" name="Name" value="Pincode"></td>
+            </tr>
+
+            <tr>
+                <th colspan="2"><input type="checkbox" id="cb">Terms and Condition</th>
+            </tr>
+
+            <tr>
+                <th colspan="2"><button type="submit" id="submit">Submit</button></th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
